@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment                                            
+metadata:
+  name: deployment-react                         
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: react
+  template:
+    metadata:
+      labels:
+        app: react
+    spec:                                      
+      containers:
+        - image: ifilyaninitmo/itdt-contained-frontend:master
+          name: react                           
+          ports:
+          - name: react-port
+            containerPort: 3000
+          env:
+            - name: REACT_APP_USERNAME
+              value: 'moskovsky'
+            - name: REACT_APP_COMPANY_NAME
+              value: 'itmo'
