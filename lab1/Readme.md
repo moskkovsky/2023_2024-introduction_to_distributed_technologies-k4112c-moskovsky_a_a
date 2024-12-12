@@ -67,3 +67,10 @@ http://localhost:8200/ui/vault/dashboard
 ```
 $ minikube kubectl logs vault
 ```
+
+![image](https://github.com/user-attachments/assets/fc0b4f4f-c5ff-46f3-ac5c-cdedd8e97d84)
+
+![image](https://github.com/user-attachments/assets/ec843bfe-61df-4a8f-b70c-b803bed7ff09)
+
+
+
