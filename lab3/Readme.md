@@ -155,3 +155,5 @@ $ kubectl apply -f cert.yaml
 $ minikube tunnel
 ```
 
+![result_lab_3](https://github.com/user-attachments/assets/a50e3dca-edf2-4158-a22b-00fc3acc8885)
+![result_cert](https://github.com/user-attachments/assets/f194688d-449b-48ef-895c-5f2e4d492761)
