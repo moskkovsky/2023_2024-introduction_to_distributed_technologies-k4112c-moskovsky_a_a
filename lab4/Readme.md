@@ -129,7 +129,7 @@ $ kubectl apply -f service.yaml
 
 **9. Вход в веб браузер**
 ```
-$ https://localhost:3000
+localhost:3000
 ```
 
 ![image](https://github.com/user-attachments/assets/709596e3-2859-4bff-9348-694cc1d3d93f)
