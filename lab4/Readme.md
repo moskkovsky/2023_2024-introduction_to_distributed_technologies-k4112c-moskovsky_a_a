@@ -134,6 +134,9 @@ $ https://localhost:3000
 
 ![image](https://github.com/user-attachments/assets/709596e3-2859-4bff-9348-694cc1d3d93f)
 
+![image](https://github.com/user-attachments/assets/e597cfda-3318-4e70-9d1b-05487586340c)
+
+
 **10. Узнать информацию о FQDN имена подов**
 ```
 $ kubectl get pods -o wide
