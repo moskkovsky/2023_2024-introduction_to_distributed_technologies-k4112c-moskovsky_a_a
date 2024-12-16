@@ -194,5 +194,8 @@ PING 10-244-117-199.service-lab4.default.svc.cluster.local (10.244.117.199): 56 
 
 ![image](https://github.com/user-attachments/assets/cd175231-076e-4842-8cdf-f6f56c988f64)
 
+![image](https://github.com/user-attachments/assets/4c381822-fb44-4286-8a20-59091027b1c4)
+
+
 
 
