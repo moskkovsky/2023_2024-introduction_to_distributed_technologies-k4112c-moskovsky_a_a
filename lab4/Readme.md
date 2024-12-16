@@ -121,7 +121,7 @@ spec:
       name: http
 ```
 
-**8. Обновление deployment и serve**
+**8. Обновление deployment и service**
 ```
 $ kubectl apply -f deployment.yaml
 $ kubectl apply -f service.yaml
