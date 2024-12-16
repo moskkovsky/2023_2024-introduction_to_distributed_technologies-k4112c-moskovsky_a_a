@@ -1,0 +1,19 @@
+apiVersion: crd.projectcalico.org/v1
+kind: IPPool
+metadata:
+  name: rack-0
+spec:
+  cidr: 192.168.10.0/24
+  ipipMode: Always
+  natOutgoing: true
+  nodeSelector: rack == "0"
+---
+apiVersion: crd.projectcalico.org/v1
+kind: IPPool
+metadata:
+  name: rack-1
+spec:
+  cidr: 192.168.20.0/24
+  ipipMode: Always
+  natOutgoing: true
+  nodeSelector: rack == "1"
